@@ -5,7 +5,7 @@ public class PalindromeService {
     // nie zmieniaj sygnatury tej metody. Jest ona testowana w PalindromeServiceTest
     public boolean isPalindrome(int[] array) {
 
-        if (array.length == 0) {
+        if (array == null || array.length == 0) {
             return false;
         }
 
